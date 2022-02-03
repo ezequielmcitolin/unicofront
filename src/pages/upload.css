@@ -1,0 +1,206 @@
+form.container {
+  justify-content: space-evenly;
+  width: 700px;
+  margin: 64px auto;
+
+  background: #FFFFFF;
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+
+  padding: 24px 80px;
+  overflow: hidden;
+}
+
+form.container .input-block + .input-block {
+  margin-top: 24px;
+}
+
+form.container .images-container{
+  display:  inline-block;
+
+}
+
+form.container .input-block input,
+form.container .input-block textarea {
+  width: 100%;
+  background: #F5F8FA;
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+  outline: none;
+  color: #5C8599;
+}
+
+
+form.container .input-block {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form.container .input-block input {
+  height: 54px;
+  padding: 0 16px;
+}
+
+form.container label{
+  display: flex;
+  color: #8FA7B3;
+  margin-bottom: 8px;
+  line-height: 24px;
+  font-size: 22px;
+  margin-top:12px;
+}
+
+form.container .input-block label {
+  display: flex;
+  color: #8FA7B3;
+  margin-bottom: 8px;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+form.container .input-block .images-container .new-image {
+  width: 196px;
+  height: 196px;
+  justify-content: center;
+  align-items: center;
+}
+
+form.container .input-block .images-container img {
+  width: 196px;
+  height: 196px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+form.container .input-block input[type=file] {
+  display: none;
+  visibility: hidden;
+}
+
+form.container .input-block .new-image {
+  height: 96px;
+  background: #F5F8FA;
+  border: 1px dashed #96D2F0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+form.container button.confirm-button {
+  margin-top: 64px;
+  width: 100%;
+  background: #3CDC8C;
+}
+
+form.container button.solicita-button {
+  margin-top: 64px;
+  width: 100%;
+  background: #dc973c;
+}
+
+button{
+  height: 64px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-weight: 800;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+}
+
+button.clear-button {
+  margin-bottom: 16px;
+  width: 100%;
+  background: #3c3fdc;
+}
+
+form.container button.confirm-button svg {
+  margin-right: 16px;
+}
+
+form.container button.confirm-button:hover {
+  background: #36CF82;
+}
+form.container h3 {
+ color: #000;
+ display: flex;
+ margin-bottom: 8px;
+ line-height: 24px;
+ margin-top: 50px;
+}
+
+form.container p {
+  color: #000;
+}
+
+form.container .retorno-container {
+margin-top: 16px;
+}
+
+.container{
+  width: 700px;
+  margin: 64px auto;
+}
+
+.spinner {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.spinner span {
+  font-size: 2rem;
+  animation: fade 1s linear 0s infinite;
+  padding-right: 1rem;
+}
+
+.half-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #03fc4e;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.5s linear 0s infinite;
+}
+
+.completed {
+  font-size: 3rem;
+  color: #03fc4e;
+
+  animation: bigger 2s linear;
+}
+
+@keyframes bigger {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
