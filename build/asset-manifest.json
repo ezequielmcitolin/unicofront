@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfd9281a.css",
-    "main.js": "/static/js/main.018a5d0a.js",
-    "static/media/logo.png": "/static/media/logo.8a9558f90d913af30728.png",
-    "index.html": "/index.html",
-    "main.dfd9281a.css.map": "/static/css/main.dfd9281a.css.map",
-    "main.018a5d0a.js.map": "/static/js/main.018a5d0a.js.map"
+    "main.css": "/UnicoFront/static/css/main.dfd9281a.css",
+    "main.js": "/UnicoFront/static/js/main.b8119c77.js",
+    "static/media/logo.png": "/UnicoFront/static/media/logo.8a9558f90d913af30728.png",
+    "index.html": "/UnicoFront/index.html",
+    "main.dfd9281a.css.map": "/UnicoFront/static/css/main.dfd9281a.css.map",
+    "main.b8119c77.js.map": "/UnicoFront/static/js/main.b8119c77.js.map"
   },
   "entrypoints": [
     "static/css/main.dfd9281a.css",
-    "static/js/main.018a5d0a.js"
+    "static/js/main.b8119c77.js"
   ]
 }
