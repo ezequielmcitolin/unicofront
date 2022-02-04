@@ -5,7 +5,7 @@ function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-              <Route path="/" exact component={UploadImages} />
+              <Route path="/*" exact component={UploadImages} />
             </Switch>
         </BrowserRouter>
     )

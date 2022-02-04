@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfd9281a.css",
-    "main.js": "/static/js/main.d5f97488.js",
-    "static/media/logo.png": "/static/media/logo.8a9558f90d913af30728.png",
-    "index.html": "/index.html",
-    "main.dfd9281a.css.map": "/static/css/main.dfd9281a.css.map",
-    "main.d5f97488.js.map": "/static/js/main.d5f97488.js.map"
+    "main.css": "/UnicoProd/static/css/main.dfd9281a.css",
+    "main.js": "/UnicoProd/static/js/main.183dee98.js",
+    "static/media/logo.png": "/UnicoProd/static/media/logo.8a9558f90d913af30728.png",
+    "index.html": "/UnicoProd/index.html",
+    "main.dfd9281a.css.map": "/UnicoProd/static/css/main.dfd9281a.css.map",
+    "main.183dee98.js.map": "/UnicoProd/static/js/main.183dee98.js.map"
   },
   "entrypoints": [
     "static/css/main.dfd9281a.css",
-    "static/js/main.d5f97488.js"
+    "static/js/main.183dee98.js"
   ]
 }
